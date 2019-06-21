@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <title>问答落地页</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/quizdownload.css"/>
+</head>
+<body>
+<section class="wap-content">
+	<!--下载按钮-->
+	<div class="load">
+		<img src="img/logo_wd.png"/>
+		<div class="t-box">
+			<span class="t1">太公问答</span><br />
+			<span class="t2">找工程情报，用太公问答</span>
+		</div>		
+		<a href="javascript:;" class="loadbtn" onclick="downloadApp()">下载</a>
+	</div>
+    <!--banner-->
+    <div class="wap-banner">
+        <h3>太公问答</h3>
+		<p>找工程情报，用太公问答</p>
+        <img src="img/ewm_wd.png" alt="" class="img">
+    </div>
+    <!--内容1-->
+    <div class="wap-box1">
+        <div class="item-header">
+			<span class="left" style="width: 20%;"></span>
+            <h3>我们能帮您解决什么？</h3>
+            <span class="right" style="width: 20%;"></span>
+        </div>
+        <div class="item-box">
+            <div class="left">
+                <img src="img/pic_1.png" alt="">
+            </div>
+            <div class="right">
+                <h5>工程销售签单难，怎么办？</h5>
+                <p class="text">商机一网打尽，让您签单更容易；招标、采购、工程项目、项目动态情报、个性订阅、即时推送。</p>
+            </div>
+        </div>
+        <div class="item-box">
+            <div class="right" >
+                <h5>想知道最新项目情报，怎么办？</h5>
+                <p class="text all">上万专家在线问答，每日实时更新拟建、构思、设计、工地现场等前期项目情报，每日发布上万条。</p>
+            </div>
+            <div class="left">
+                <img src="img/pic_2.png" alt="">
+            </div>
+        </div>
+        <div class="item-box">
+            <div class="left">
+                <img src="img/pic_3.png" alt="">
+            </div>
+            <div class="right">
+                <h5>想最快找到具体负责人，怎么办？</h5>
+                <p class="text">平台免费提供CRM库，找人、找企业不再愁;找设计院？找设计院单位 的某位设计师？so easy！</p>
+            </div>
+        </div>
+	</div>
+	<!-- 我们的优势 -->
+	<div class="wap-box1">
+	    <div class="item-header">
+	        <span class="left"></span>
+	        <h3>我们的优势</h3>
+	        <span class="right"></span>
+	    </div>
+	    <div class="item-box0">
+	        <div class="imgbox">
+				<img src="img/icon_1.png" alt="">
+				<h5>智能标签</h5>
+				<span>精确用户分类</span>
+			</div>
+			<div class="imgbox">
+				<img src="img/icon_2.png" alt="">
+				<h5>智能推送</h5>
+				<span>时间、地点</span>
+			</div>
+			<div class="imgbox">
+				<img src="img/icon_3.png" alt="">
+				<h5>实时推送</h5>
+				<span>看项目看分享</span>
+			</div>
+			<div class="imgbox">
+				<img src="img/icon_4.png" alt="">
+				<h5>智能标签</h5>
+				<span>精确用户分类</span>
+			</div>
+	    </div>
+	</div>
+	<!-- 产品服务对象-->
+	<div class="wap-box1">
+	    <div class="item-header">
+	        <span class="left"></span>
+	        <h3>产品服务对象</h3>
+	        <span class="right"></span>
+	    </div>
+	    <div class="item-box1">
+	        <p class="text">生产&制造商行业人士；工程从业者，包括从事勘查、设计、咨询、监理、施工、检测等工程技术或工程管理的专业人员，比如：设计师、项目经理、造价师、监理师、业主代表（工程师）等；工程行业管理者，包括工程企业或工程从业者的政府机构、事业单位或协会组织内的从业人员；工程相关专业学者，包括高校、科研院所或工程企业设立的独立工程研发机构人员。</p>
+	    </div>
+		<!-- <div class="item-box0">
+		    <div class="imgbox">
+		    	<h5>500+</h5>
+		    	<span>精确用户分类</span>
+		    </div>
+			<div class="imgbox">
+				<h5>500+</h5>
+				<span>日活跃量</span>
+			</div>
+			<div class="imgbox">
+				<h5>500+</h5>
+				<span>大V用户</span>
+			</div>
+			<div class="imgbox">
+				<h5>500+</h5>
+				<span>入驻用户</span>
+			</div>
+		</div> -->
+		<div class="item-box1">
+			<h3>免费试用</h3>
+			<div class="box" onclick="downloadApp()">
+				<img src="img/m-andriod.png" alt="">
+				<img src="img/m-iphone.png" alt="">
+				<span>iphone/安卓端</span>
+			</div>
+		</div>
+	</div>
+</section>
+<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+<script>
+    var androidUrl ='http://www.91jtg.com/appwd.apk';
+    var iosUrl ='location.href = "https://itunes.apple.com/cn/app/%E5%A4%AA%E5%85%AC%E9%97%AE%E7%AD%94/id1270031233?mt=8';
+    function downloadApp(){
+        try {
+            androidMethod.downloadApp(androidUrl);
+        } catch(error) {
+            console.log(error)
+        }
+        try {
+            window.webkit.messageHandlers.downloadApp.postMessage(iosUrl);
+        } catch(error) {
+            console.log(error)
+        }
+    }
+	// 头部拉出一定高度自动跳出
+	$(window).scroll(function () {
+		var load=$('.load');
+		if ($(window).scrollTop() >= 200) {
+			load.show();
+		} else {
+			load.hide();
+		}
+	});
+</script>
+</body>
+</html>

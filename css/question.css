@@ -1,0 +1,26 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+body{
+	background: #f2f2f2;
+}
+.item-box{
+	padding: 15px;
+	margin: 0 0 10px 0;
+	overflow: hidden;
+	display: block;
+	background: #fff;
+	cursor: pointer;
+}
+.item-box .text{
+	float: left;
+	width: 88%;
+	font-size: 16px;
+	color: #333333;
+}
+.item-box .icon{
+	float: right;
+	height: 20px;
+}

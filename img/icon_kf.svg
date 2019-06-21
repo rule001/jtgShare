@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_kf_normal</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon_kf_normal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="message-talk">
+            <g id="Oval-45-+-Line-+-Line">
+                <path d="M2.03471643,21.2724777 C3.97665128,23.5662731 0.379705256,27.3407981 0.379705256,27.3407981 C0.379705256,27.3407981 5.53106654,25.1928431 6.36150232,25.7345146 C8.55810077,27.1672984 11.1818064,28 14,28 C21.7319865,28 28,21.7319865 28,14 C28,6.2680135 21.7319865,0 14,0 C6.2680135,0 0,6.2680135 0,14 C0,16.6633002 0.74368321,19.1529038 2.03471643,21.2724777 Z" id="Oval-45" fill="#A4DF69"></path>
+                <path d="M6.36363636,10.5 L22.2727273,10.5" id="Line" stroke="#8BC651" stroke-width="1.27272727" stroke-linecap="round"></path>
+                <path d="M6.36363636,14.3181818 L14.3181818,14.3181818" id="Line" stroke="#8BC651" stroke-width="1.27272727" stroke-linecap="round"></path>
+            </g>
+            <g id="Oval-45-+-Line-+-Line-2" transform="translate(21.477273, 21.477273) scale(-1, 1) translate(-21.477273, -21.477273) translate(15.909091, 15.909091)">
+                <path d="M0.809262218,8.46064454 C1.58162267,9.37294952 0.151019136,10.8741811 0.151019136,10.8741811 C0.151019136,10.8741811 2.19985601,10.0198808 2.53014297,10.2353183 C3.40379008,10.8051755 4.44730938,11.1363636 5.56818182,11.1363636 C8.64340372,11.1363636 11.1363636,8.64340372 11.1363636,5.56818182 C11.1363636,2.49295992 8.64340372,0 5.56818182,0 C2.49295992,0 0,2.49295992 0,5.56818182 C0,6.62744892 0.295783095,7.61763219 0.809262218,8.46064454 Z" id="Oval-45" fill="#C8EAA5"></path>
+                <path d="M2.54545455,4.26291322 L8.87293388,4.26291322" id="Line" stroke="#A0D170" stroke-width="0.509090909" stroke-linecap="round"></path>
+                <path d="M5.72727273,5.85382231 L8.8910124,5.85382231" id="Line" stroke="#A0D170" stroke-width="0.509090909" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>
